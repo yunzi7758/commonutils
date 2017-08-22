@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.facade.ElectricPowerMarketingImpl" project="designpattern" 
+    file="/designpattern/src/main/java/model/facade/ElectricPowerMarketingImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="185" x="322" y="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.facade.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/facade/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="722" y="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="model.facade.IElectricPowerMarketing" project="designpattern" 
+    file="/designpattern/src/main/java/model/facade/IElectricPowerMarketing.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="164" x="435" y="292"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="model.facade.PublicAgent" project="designpattern" 
+    file="/designpattern/src/main/java/model/facade/PublicAgent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="135" x="547" y="99"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <note id="5">    
+    <position height="249" width="200" x="80" y="118"/>    
+    <text><![CDATA[类似代理模式，
+相同：当想操作一个类A时，不直接操作，而是利用接口的方式，通过一个中间前端类B去操作A。
+不同：
+代理-----前端类会相应的生成被代理类的所有方法，这样可以实现在一件事的前后去帮他做其他事情
+2而且动态绑定不同的被代理类，还可以不同的事
+门面------无需对应生成所有方法，而是在前端类中按规则组装B的方法。这样在做某些事时，无需再去弄个123，而是直接调门面自己已经组装好的方法]]>
+    </text>  
+  </note>  
+  <realization id="6">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <association id="7">    
+    <end type="SOURCE" refId="4" navigable="false" variant="ASSOCIATION">      
+      <attribute id="8" name="electricPowerMarketing">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="false" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

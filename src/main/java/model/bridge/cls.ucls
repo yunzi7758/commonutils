@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.bridge.House" project="designpattern" 
+    file="/designpattern/src/main/java/model/bridge/House.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="174" x="237" y="103"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.bridge.VillaImp" project="designpattern" 
+    file="/designpattern/src/main/java/model/bridge/VillaImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="538" y="342"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.bridge.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/bridge/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="851" y="230"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="model.bridge.HouseImp" project="designpattern" 
+    file="/designpattern/src/main/java/model/bridge/HouseImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="627" y="178"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="model.bridge.FlatImp" project="designpattern" 
+    file="/designpattern/src/main/java/model/bridge/FlatImp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="691" y="329"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.bridge.ExtensionHouse" project="designpattern" 
+    file="/designpattern/src/main/java/model/bridge/ExtensionHouse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="319" y="309"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <note id="7">    
+    <position height="186" width="200" x="17" y="132"/>    
+    <text><![CDATA[类似于代理，门面模式，像是两者的综合。
+桥接模式做到了动态绑定不同的实现类做不同的动作，同时又有组装实现类方法的好处。
+
+在abstraction定义上层操作，其中同时维护一个implementor接口定义细节操作，具体由不同的concreteimplementor实现，最将具体实现赋值给extendedabstraction
+
+
+极大的将各具体实现拆分为不同的模块，拆分更加细致具体
+
+
+    ]]>
+    </text>  
+  </note>  
+  <realization id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="11">    
+    <end type="SOURCE" refId="1" navigable="false" variant="ASSOCIATION">      
+      <attribute id="12" name="houseImp">        
+        <position height="0" width="0" x="109" y="-122"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="0" width="0" x="109" y="-122"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

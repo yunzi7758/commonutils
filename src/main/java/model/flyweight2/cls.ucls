@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.flyweight2.ShareFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/ShareFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="149" x="201" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.flyweight2.ConcreteShare" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/ConcreteShare.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="155" x="390" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.flyweight2.ConcreteCompositeShare" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/ConcreteCompositeShare.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="171" x="585" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="model.flyweight2.Share" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/Share.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="118" x="585" y="330"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="model.flyweight2.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="796" y="155"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="8">    
+    <end type="SOURCE" refId="3" navigable="false" variant="ASSOCIATION">      
+      <attribute id="9" name="share"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

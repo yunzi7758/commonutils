@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="model.factorymethod.IMachineFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/IMachineFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="155" x="792" y="312"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="model.factorymethod.XiaoMing" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/XiaoMing.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="104" x="550" y="137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.factorymethod.BecilityFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/BecilityFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="155" x="694" y="137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="model.factorymethod.IndustryFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/IndustryFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="155" x="889" y="137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="model.factorymethod.Industry" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/Industry.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="100" x="480" y="312"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.factorymethod.Becility" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/Becility.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="100" x="620" y="312"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="model.factorymethod.Client" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="244" y="137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="model.factorymethod.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/factorymethod/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="397" y="137"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true">  
+  <object id="1" language="java" name="principle.dip2.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/principle/dip2/Jsp2Test.java" binary="false" label="jsp2Test" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="551" y="0"/>    
+    <execution id="2">      
+      <position height="205" width="75" x="5" y="101"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="principle.dip2.IEmployee" project="designpattern" 
+    file="/designpattern/src/main/java/principle/dip2/IEmployee.java" binary="false" label="iEmployee" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="181" y="0"/>    
+    <execution id="4">      
+      <position height="163" width="81" x="5" y="122"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="principle.dip2.Code" project="designpattern" 
+    file="/designpattern/src/main/java/principle/dip2/Code.java" binary="false" label="code" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="7">      
+      <position height="121" width="61" x="90" y="143"/>    
+    </execution>  
+  </object>  
+  <object id="11" language="java" name="principle.dip2.ICode" project="designpattern" 
+    file="/designpattern/src/main/java/principle/dip2/ICode.java" binary="false" label="iCode" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="579" y="0"/>    
+    <execution id="10">      
+      <position height="79" width="61" x="155" y="164"/>    
+    </execution>  
+  </object>  
+  <object id="16" language="java" name="principle.dip2.SeniorProgrammer" project="designpattern" 
+    file="/designpattern/src/main/java/principle/dip2/SeniorProgrammer.java" binary="false" label="seniorProgrammer" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="504" y="0"/>    
+    <execution id="13">      
+      <position height="21" width="133" x="299" y="185"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="principle.dip2.CommonProgrammer" project="designpattern" 
+    file="/designpattern/src/main/java/principle/dip2/CommonProgrammer.java" binary="false" label="commonProgrammer" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="542" y="0"/>    
+    <execution id="15">      
+      <position height="21" width="147" x="436" y="201"/>    
+    </execution>  
+  </object>  
+  <note id="18">    
+    <position height="100" width="241" x="643" y="164"/>    
+    <text><![CDATA[依赖倒转，又叫座策略模式，类似的有模版模式
+    ]]>
+    </text>  
+  </note>  
+  <message id="3" operation="code(principle.dip2.ICode):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="code(principle.dip2.ICode):java.lang.String" asynchronous="false" x="125" y="123">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="getRun(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="14" asynchronous="false">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <text-link id="19">    
+    <link-end type="SOURCE" refId="18"/>    
+    <link-end type="TARGET" refId="15"/>  
+  </text-link>
+</sequence-diagram>

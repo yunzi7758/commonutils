@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true">  
+  <object id="1" language="java" name="model.flyweight2.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/Jsp2Test.java" binary="false" label="jsp2Test" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="72" y="0"/>    
+    <execution id="2">      
+      <position height="273" width="78" x="5" y="114"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="159" width="78" x="5" y="394"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="model.flyweight2.ShareFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/ShareFactory.java" binary="false" label="shareFactory" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="339" y="0"/>    
+    <execution id="4">      
+      <position height="231" width="99" x="87" y="135"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="96" width="7" x="133" y="217"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="7" x="136" y="271"/>    
+    </execution>  
+  </object>  
+  <object id="19" language="java" name="model.flyweight2.ConcreteCompositeShare" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/ConcreteCompositeShare.java" binary="false" 
+    label="concreteCompositeShare" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="392" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="170" x="190" y="156"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="170" x="190" y="324"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="117" width="170" x="190" y="415"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="7" x="272" y="457"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="model.flyweight2.ConcreteShare" project="designpattern" 
+    file="/designpattern/src/main/java/model/flyweight2/ConcreteShare.java" binary="false" label="concreteShare" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="509" y="0"/>    
+    <execution id="16">      
+      <position height="21" width="109" x="364" y="238"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="21" width="109" x="364" y="490"/>    
+    </execution>  
+  </object>  
+  <note id="25">    
+    <position height="100" width="200" x="593" y="163"/>    
+    <text><![CDATA[传入内蕴状态]]>
+    </text>  
+  </note>  
+  <note id="26">    
+    <position height="100" width="200" x="614" y="434"/>    
+    <text><![CDATA[传入外蕴状态]]>
+    </text>  
+  </note>  
+  <message id="3" operation="factory(java.lang.String):model.flyweight2.Share" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="work(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="ConcreteCompositeShare()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="factory(java.lang.Character):model.flyweight2.Share" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="add(java.lang.Character,model.flyweight2.Share):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="ConcreteShare(java.lang.Character)" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="20" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="work(java.lang.String):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <text-link id="27">    
+    <link-end type="SOURCE" refId="25"/>    
+    <link-end type="TARGET" refId="16"/>  
+  </text-link>  
+  <text-link id="28">    
+    <link-end type="SOURCE" refId="26"/>    
+    <link-end type="TARGET" refId="23"/>  
+  </text-link>
+</sequence-diagram>

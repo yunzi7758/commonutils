@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.14" icons="true">  
+  <object id="1" language="java" name="model.observer.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/observer/Jsp2Test.java" binary="false" label="jsp2Test" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="89" y="0"/>    
+    <execution id="2">      
+      <position height="180" width="75" x="5" y="104"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="238" width="75" x="5" y="306"/>    
+    </execution>  
+  </object>  
+  <object id="10" language="java" name="model.observer.Book" project="designpattern" 
+    file="/designpattern/src/main/java/model/observer/Book.java" binary="false" label="book" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="266" y="0"/>    
+    <execution id="4">      
+      <position height="63" width="72" x="84" y="125"/>    
+    </execution>    
+    <execution id="9">      
+      <position height="196" width="72" x="84" y="327"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="model.observer.BookSubject" project="designpattern" 
+    file="/designpattern/src/main/java/model/observer/BookSubject.java" binary="false" label="bookSubject" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="434" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="95" x="160" y="146"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="95" x="160" y="221"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="95" x="160" y="348"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="120" width="95" x="160" y="382"/>    
+    </execution>    
+    <execution id="20">      
+      <position height="21" width="7" x="204" y="424"/>    
+    </execution>  
+  </object>  
+  <object id="23" language="java" name="model.observer.Observer" project="designpattern" 
+    file="/designpattern/src/main/java/model/observer/Observer.java" binary="false" label="observer" type="interface" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="386" y="0"/>    
+    <execution id="22">      
+      <position height="21" width="76" x="259" y="460"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="model.observer.EmailObserver" project="designpattern" 
+    file="/designpattern/src/main/java/model/observer/EmailObserver.java" binary="false" label="emailObserver" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="442" y="0"/>    
+    <execution id="6">      
+      <position height="63" width="107" x="339" y="200"/>    
+    </execution>  
+  </object>  
+  <note id="26">    
+    <position height="29" width="88" x="470" y="276"/>    
+    <text><![CDATA[注册观察者]]>
+    </text>  
+  </note>  
+  <note id="27">    
+    <position height="27" width="78" x="426" y="486"/>    
+    <text><![CDATA[通知观察者]]>
+    </text>  
+  </note>  
+  <message id="3" operation="Book(double)" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="EmailObserver(model.observer.Book)" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="8" operation="updatePrice(double):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </message>  
+  <message id="11" operation="BookSubject()" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="13" operation="setShift():void" asynchronous="false">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="informObservers():void" asynchronous="false">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="19" operation="clearShift():void" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="21" operation="update(model.observer.BookSubject,java.lang.Object):java.lang.String" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="22"/>  
+  </message>  
+  <message id="25" operation="appendObserver(model.observer.Observer):void" asynchronous="false">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <text-link id="28">    
+    <link-end type="SOURCE" refId="26"/>    
+    <link-end type="TARGET" refId="25"/>  
+  </text-link>  
+  <text-link id="29">    
+    <link-end type="SOURCE" refId="27"/>    
+    <link-end type="TARGET" refId="21"/>  
+  </text-link>
+</sequence-diagram>

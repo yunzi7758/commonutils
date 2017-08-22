@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.visitor3.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="936" y="118"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.visitor3.Horse" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/Horse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="367" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="model.visitor3.IHorseVisitor" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/IHorseVisitor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1302" y="349"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="model.visitor3.IMuleVisitor" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/IMuleVisitor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1452" y="349"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="model.visitor3.Mule" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/Mule.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="530" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="6" language="java" name="model.visitor3.IMokeVisitor" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/IMokeVisitor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1006" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="7" language="java" name="model.visitor3.ObjectStructure" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/ObjectStructure.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="864" y="277"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="model.visitor3.Moke" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/Moke.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="703" y="360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="model.visitor3.IEquid" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/IEquid.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="619" y="222"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="model.visitor3.Weight" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/Weight.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1312" y="201"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="model.visitor3.IVisitor" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/IVisitor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1154" y="340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="12" language="java" name="model.visitor3.Stature" project="designpattern" 
+    file="/designpattern/src/main/java/model/visitor3/Stature.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1276" y="500"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <note id="13">    
+    <position height="100" width="200" x="974" y="176"/>    
+    <text><![CDATA[不同的访问者根据其自身作出不同的动作。]]>
+    </text>  
+  </note>  
+  <realization id="14">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="18">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <association id="20">    
+    <end type="SOURCE" refId="7" navigable="false" variant="ASSOCIATION">      
+      <attribute id="21" name="elements"/>      
+      <multiplicity id="22" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="23">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="24">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="26">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="27">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

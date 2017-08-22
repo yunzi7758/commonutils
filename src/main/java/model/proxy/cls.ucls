@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.proxy.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/proxy/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="128" y="142"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.proxy.ManProxy" project="designpattern" 
+    file="/designpattern/src/main/java/model/proxy/ManProxy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="161" x="281" y="142"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.proxy.LidongTraining" project="designpattern" 
+    file="/designpattern/src/main/java/model/proxy/LidongTraining.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="161" x="482" y="142"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="model.proxy.ITraining" project="designpattern" 
+    file="/designpattern/src/main/java/model/proxy/ITraining.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="161" x="281" y="335"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <note id="5">    
+    <position height="100" width="200" x="-38" y="257"/>    
+    <text><![CDATA[代理类和被代理类实现相同的接口，代理类中需要传入实现了相同接口的被代理类，以便代理类中可以动态的绑定实现了相同接口的不同功能的被代理类]]>
+    </text>  
+  </note>  
+  <association id="6">    
+    <end type="SOURCE" refId="2" navigable="false" variant="ASSOCIATION">      
+      <attribute id="7" name="training"/>      
+      <multiplicity id="8" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <text-link id="9">    
+    <link-end type="SOURCE" refId="5"/>    
+    <link-end type="TARGET" refId="10"/>  
+  </text-link>  
+  <realization id="10">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.abstractfactory.ManMakeMoney" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/ManMakeMoney.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="134" x="1166" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="model.abstractfactory.IHumanFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/IHumanFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="168" x="564" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="model.abstractfactory.GirlStudy" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/GirlStudy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="105" x="876" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="model.abstractfactory.IStudy" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/IStudy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="105" x="949" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="model.abstractfactory.IMakeMoney" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/IMakeMoney.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="134" x="1253" y="354"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="model.abstractfactory.GirlFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/GirlFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="168" x="460" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="model.abstractfactory.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="307" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="model.abstractfactory.ManFactory" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/ManFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="168" x="668" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="model.abstractfactory.ManStudy" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/ManStudy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="105" x="1021" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="model.abstractfactory.GrilMakeMoney" project="designpattern" 
+    file="/designpattern/src/main/java/model/abstractfactory/GrilMakeMoney.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="134" x="1340" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="11">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

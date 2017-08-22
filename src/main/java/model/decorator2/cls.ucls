@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="model.decorator2.Employee" project="designpattern" 
+    file="/designpattern/src/main/java/model/decorator2/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="127" y="171"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="model.decorator2.Jsp2Test" project="designpattern" 
+    file="/designpattern/src/main/java/model/decorator2/Jsp2Test.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="280" y="171"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="model.decorator2.Decorator" project="designpattern" 
+    file="/designpattern/src/main/java/model/decorator2/Decorator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="163" x="275" y="328"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="model.decorator2.YearExamineeRecord" project="designpattern" 
+    file="/designpattern/src/main/java/model/decorator2/YearExamineeRecord.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="146" x="478" y="328"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="model.decorator2.ExamineeRecord" project="designpattern" 
+    file="/designpattern/src/main/java/model/decorator2/ExamineeRecord.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="141" x="433" y="171"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="model.decorator2.OrderDecorator" project="designpattern" 
+    file="/designpattern/src/main/java/model/decorator2/OrderDecorator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="191" x="159" y="485"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="model.decorator2.TiptopPointDecorator" project="designpattern" 
+    file="/designpattern/src/main/java/model/decorator2/TiptopPointDecorator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="215" x="390" y="485"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <note id="8">    
+    <position height="100" width="200" x="-52" y="335"/>    
+    <text><![CDATA[装饰器模式，在于有一个公共的父类，有装饰器的基本功能。各个装饰器只要实现具体的装饰。]]>
+    </text>  
+  </note>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="11">    
+    <end type="SOURCE" refId="3" navigable="false" variant="ASSOCIATION">      
+      <attribute id="12" name="er"/>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true" variant="ASSOCIATION"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="14">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <text-link id="15">    
+    <link-end type="SOURCE" refId="8"/>    
+    <link-end type="TARGET" refId="3"/>  
+  </text-link>  
+  <generalization id="16">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
